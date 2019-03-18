@@ -1,0 +1,13 @@
+server:
+    port: 8080
+spring:
+    thymeleaf:
+        cache: false
+        mode: HTML
+    http:
+       multipart:
+          max-file-size: -1
+          max-request-size: -1
+multipart:
+    max-file-size: 10Mb
+    max-request-size: 10Mb
